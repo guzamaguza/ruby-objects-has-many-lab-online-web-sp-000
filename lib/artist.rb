@@ -1,6 +1,4 @@
 class Artist
-
-
     @songs = []
 
     def new
