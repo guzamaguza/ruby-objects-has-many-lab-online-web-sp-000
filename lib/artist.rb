@@ -8,7 +8,7 @@ class Artist
     end
 
     def name
-      attr_accessor :name
+      self.name = attr_accessor :name
     end
 
     def songs
