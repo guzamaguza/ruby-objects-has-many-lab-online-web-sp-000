@@ -3,7 +3,7 @@ class Artist
 
     @songs = []
 
-    def new(name)
+    def new
         @name = name
     end
 
