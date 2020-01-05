@@ -14,8 +14,8 @@ class Post
   end
 
   def author_name
-    if self.author == true
-      return self.artist.post
+    if self.author
+      return self.author.post
     else
       return nil
     end
