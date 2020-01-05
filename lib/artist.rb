@@ -23,6 +23,10 @@ class Artist
       @@song_count +=1    #increase song count by 1
     end
 
+    def songs
+      @songs
+    end
+
     def self.song_count
       @@song_count
     end
