@@ -4,7 +4,7 @@ class Song
     @@all = []   #class variable
 
     def initialize(name, artist = nil)
-      @name = name
+      @name = name      #instance variable
       @artist = artist
       @@all << self
     end
