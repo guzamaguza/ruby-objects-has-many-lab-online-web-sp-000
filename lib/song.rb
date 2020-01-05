@@ -9,22 +9,16 @@ class Song
       @@all << self
     end
 
-    def new(name)
-      @name = name
-      @genre = genre
-      @@all = []
-    end
-
     def self.all
       @@all
     end
 
     def name
-      return self.name
+      self.name 
     end
 
     def artist
-      return nil
+      nil
     end
 
     def artist_name
