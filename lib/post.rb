@@ -1,10 +1,10 @@
 class Post
-  attr_accessor :author, :post
+  attr_accessor :author, :title
 
   @@all = []   #class variable
 
-  def initialize(post, author = nil)
-    @post = post      #instance variable
+  def initialize(title, author = nil)
+    @title = title      #instance variable
     @author = author
     @@all << self
   end
@@ -25,7 +25,4 @@ class Post
     @post
   end
 
-  def post
-    @post
-  end
 end
