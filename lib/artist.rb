@@ -1,8 +1,8 @@
 class Artist
-    @songs = []
 
-    def new
-        self.name = Artist.new(name)
+    def initialize(name)
+        @name = name
+        @songs = []
     end
 
     def name
