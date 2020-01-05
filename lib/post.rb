@@ -21,10 +21,6 @@ class Post
     end
   end
 
-  #def name
-  #  @post
-  #end
-
   def title
     @post
   end
