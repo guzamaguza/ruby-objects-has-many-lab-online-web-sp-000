@@ -1,5 +1,5 @@
 class Artist
-    attr_accessor :name
+
 
     @songs = []
 
@@ -8,7 +8,7 @@ class Artist
     end
 
     def name
-
+      attr_accessor :name
     end
 
     def songs
