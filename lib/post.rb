@@ -3,8 +3,8 @@ class Post
 
   @@all = []   #class variable
 
-  def initialize(name, artist = nil)
-    @name = name      #instance variable
+  def initialize(post, author = nil)
+    @post = post      #instance variable
     @author = author
     @@all << self
   end
@@ -13,17 +13,16 @@ class Post
     @@all
   end
 
-
-
-  def artist_name
-    if self.artist == true
-      return self.artist.name
+  def author_name
+    if self.author == true
+      return self.artist.post
     else
       return nil
     end
   end
 
-
-
+  def name 
+    @post 
+  end 
 
 end
