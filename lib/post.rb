@@ -25,4 +25,8 @@ class Post
     @post
   end
 
+  def title
+    @post
+  end
+
 end
