@@ -3,9 +3,8 @@ class Post
 
   @@all = []   #class variable
 
-  def initialize(title, author = nil)
+  def initialize(title)
     @title = title      #instance variable
-    @author = author
     @@all << self
   end
 
@@ -14,8 +13,8 @@ class Post
   end
 
   def author_name
-    if self.author
-      self.author.title
+    if self.author != nil
+      self.author.name
     else
       nil
     end
