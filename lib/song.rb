@@ -9,7 +9,7 @@ class Song
       save
     end
 
-    def new(name)
+    def new(name, genre)
       @name = name
     end
 
