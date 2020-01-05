@@ -4,7 +4,7 @@ class Artist
     @songs = []
 
     def new
-        name = Artist.new(name)
+        self.name = Artist.new(name)
     end
 
     def name
