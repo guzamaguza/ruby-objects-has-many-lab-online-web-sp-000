@@ -20,8 +20,8 @@ class Post
     end
   end
 
-  def name
-    @author
-  end
+  #def name
+  #  @author
+  #end
 
 end
