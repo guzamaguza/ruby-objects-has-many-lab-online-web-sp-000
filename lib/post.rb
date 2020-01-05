@@ -20,7 +20,7 @@ class Post
     end
   end
 
-  def title
+  def name
     @post
   end
 
