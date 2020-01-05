@@ -3,7 +3,7 @@ class Post
 
   @@all = []   #class variable
 
-  def initialize(title)
+  def initialize(title, author = nil)
     @title = title      #instance variable
     @@all << self
   end
@@ -20,8 +20,5 @@ class Post
     end
   end
 
-  #def name
-  #  @author
-  #end
 
 end
