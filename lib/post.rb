@@ -21,7 +21,7 @@ class Post
   end
 
   def name
-    @post
+    @author
   end
 
 end
