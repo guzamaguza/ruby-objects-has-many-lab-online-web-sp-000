@@ -3,14 +3,14 @@ class Song
 
     @@all = []
 
-    def initialize(name, genre)
+    def initialize(name)
       @name = name
       @genre = genre
       @@all = []
       save
     end
 
-    def new(name, genre)
+    def new(name)
       @name = name
       @genre = genre
       @@all = []
