@@ -11,6 +11,7 @@ class Song
 
     def new(name, genre)
       @name = name
+      @genre = genre
     end
 
     def save
