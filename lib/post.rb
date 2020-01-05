@@ -15,13 +15,13 @@ class Post
 
   def author_name
     if self.author
-      self.author.posts
+      self.author.post
     else
       nil
     end
   end
 
-  def title
+  def post
     @post
   end
 
